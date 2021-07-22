@@ -1,0 +1,10 @@
+                      BANG THONG KE
+ 
+STT  TEN VAT TU                    LOAI      SO LUONG            DON GIA             THANH TIEN          
+1    socola                        socola    200                 25000               500000              
+2    Tra Bi Dao                    Tra       40                  9100                364000              
+3    Tra Ha Thu O                  Tra       100                 9500                950000              
+4    Tra Trinh Nu                  Tra       60                  10200               612000              
+5    coca                          nuoc ngot 300                 12000               900000              
+6    Tra Xanh                      Tra       30                  12000               360000              
+7    pepsi                         nuoc ngot 300                 12000               900000              

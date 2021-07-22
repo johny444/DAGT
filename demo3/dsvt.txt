@@ -1,0 +1,7 @@
+3asD|socola|socola|ly| 12 | 12 | 1998 |CT A| 200 | 25000
+6abg|Tra Bi Dao|Tra|goi| 11 | 10 | 2020 |Gwein| 40 | 9100
+3abg|Tra Ha Thu O|Tra|goi| 14 | 8 | 2020 |Twin| 100 | 9500
+4abg|Tra Trinh Nu|Tra|goi| 9 | 6 | 2020 |Gwein| 60 | 10200
+5abg|coca|nuoc ngot|lon| 12 | 8 | 2013 |CGwin| 300 | 12000
+1abf|Tra Xanh|Tra|goi| 18 | 12 | 2020 |Twin| 30 | 12000
+10abg|pepsi|nuoc ngot|lon| 20 | 8 | 2014 |CGwin| 300 | 12000

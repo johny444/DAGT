@@ -1,0 +1,10 @@
+﻿  List.cpp
+C:\Users\Gaming Gear\Desktop\DA\demo3\demo3\MyString.h(12,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Gaming Gear\Desktop\DA\demo3\demo3\read_write_file.h(24,14): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Gaming Gear\Desktop\DA\demo3\demo3\read_write_file.h(142,35): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+C:\Users\Gaming Gear\Desktop\DA\demo3\demo3\read_write_file.h(147,35): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+C:\Users\Gaming Gear\Desktop\DA\demo3\demo3\List.cpp(328,26): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+C:\Users\Gaming Gear\Desktop\DA\demo3\demo3\List.cpp(333,26): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+C:\Users\Gaming Gear\Desktop\DA\demo3\demo3\List.cpp(518,21): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+C:\Users\Gaming Gear\Desktop\DA\demo3\demo3\List.cpp(523,21): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+  demo3.vcxproj -> C:\Users\Gaming Gear\Desktop\DA\demo3\Debug\demo3.exe
