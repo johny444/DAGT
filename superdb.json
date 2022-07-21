@@ -1,0 +1,107 @@
+{
+  "category": [
+    {
+      "id": 1,
+      "tenChuyenMuc": "Sub-Ex",
+      "maChuyenMuc": "55-165-6071",
+      "ngayKhoiTao": "11/15/2021"
+    },
+    {
+      "id": 2,
+      "tenChuyenMuc": "Solarbreeze",
+      "maChuyenMuc": "68-154-9912",
+      "ngayKhoiTao": "3/15/2022"
+    },
+    {
+      "id": 3,
+      "tenChuyenMuc": "Toughjoyfax",
+      "maChuyenMuc": "91-496-6933",
+      "ngayKhoiTao": "7/10/2022"
+    },
+    {
+      "id": 4,
+      "tenChuyenMuc": "Flowdesk",
+      "maChuyenMuc": "99-617-4168",
+      "ngayKhoiTao": "7/3/2022"
+    },
+    {
+      "id": 5,
+      "tenChuyenMuc": "Home Ing",
+      "maChuyenMuc": "82-702-8538",
+      "ngayKhoiTao": "11/10/2021"
+    },
+    {
+      "id": 6,
+      "tenChuyenMuc": "Fixflex",
+      "maChuyenMuc": "18-416-2977",
+      "ngayKhoiTao": "7/1/2022"
+    },
+    {
+      "id": 7,
+      "tenChuyenMuc": "Subin",
+      "maChuyenMuc": "81-078-3570",
+      "ngayKhoiTao": "12/8/2021"
+    },
+    {
+      "id": 8,
+      "tenChuyenMuc": "Bigtax",
+      "maChuyenMuc": "03-505-5579",
+      "ngayKhoiTao": "1/19/2022"
+    },
+    {
+      "id": 9,
+      "tenChuyenMuc": "Viva",
+      "maChuyenMuc": "01-959-2926",
+      "ngayKhoiTao": "9/10/2021"
+    },
+    {
+      "id": 10,
+      "tenChuyenMuc": "Alphazap",
+      "maChuyenMuc": "78-497-0095",
+      "ngayKhoiTao": "9/6/2021"
+    }
+  ],
+  "Users": [
+    {
+      "username": "johny",
+      "email": "bolu@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "username": "johny2",
+      "email": "johny2@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "id": 2
+    },
+    {
+      "username": "johny44",
+      "email": "johny44@gmail.com",
+      "password": "johny44QWE!@#",
+      "confirmpassword": "johny44QWE!@#",
+      "id": 3
+    },
+    {
+      "username": "johny22",
+      "email": "johny22@gmail.com",
+      "password": "johny44QWE!@#",
+      "confirmpassword": "johny44QWE!@#",
+      "id": 4
+    },
+    {
+      "username": "johny22",
+      "email": "johny22@gmail.com",
+      "password": "johny44QWE!@#",
+      "confirmpassword": "johny44QWE!@#",
+      "id": 5
+    },
+    {
+      "username": "johny22",
+      "email": "johny22@gmail.com",
+      "password": "johny44QWE!@#",
+      "confirmpassword": "johny44QWE!@#",
+      "id": 6
+    }
+  ]
+}
