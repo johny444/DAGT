@@ -10,6 +10,7 @@ export class NavComponent implements OnInit {
   islogin!:boolean
   islogout!:boolean
   _dropdown!:boolean
+  name!:string
   constructor( private Check:UserService) { }
 
   ngOnInit(): void {
@@ -24,6 +25,9 @@ export class NavComponent implements OnInit {
     this.Check.currentdropdown.subscribe(res=>{
       this._dropdown=res
       console.log("res logout",this._dropdown)
+    })
+    this.Check.current_name.subscribe(res=>{
+      this.name=res
     })
 
   }

@@ -22,29 +22,24 @@
                 <li class="nav-item">
                     <a class="nav-link " href="#">Tin Bài</a>
                 </li>
-
             </ul>
         </div>
-
         <button *ngIf="islogin" class="btn btn-outline-success mx-2" type="submit" routerLink="/login"
             (click)="Checklogin()">Login</button>
     </div>
-   
-        <div>
-            <div class="row" *ngIf="_dropdown">
-                <div class="col ">
-                    <div ngbDropdown class="d-inline-block">
-                        <button type="button" class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Toggle
-                            dropdown</button>
-                        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
-                            <button ngbDropdownItem>Manange Account</button>
-                            <button ngbDropdownItem *ngIf="islogout"
-                            type="submit" routerLink="welcome"
-                             (click)="Checklogout()">Logout</button>
-                         
-                        </div>
-                    </div>
-                </div>
-            </div> 
+    <i *ngIf="_dropdown" class='fas fa-user-circle' style='font-size:36px'></i>
+    <span> </span>
+    <div class="col" *ngIf="_dropdown">
+        <div ngbDropdown class="d-inline-block">
+            <button type="button" class="btn btn-outline" id="dropdownBasic1" ngbDropdownToggle>
+                {{name}}
+            </button>
+            <div ngbDropdownMenu aria-labelledby="dropdownBasic1" class="dropdown-menu dropdown-menu-end p-0">
+                <button ngbDropdownItem>Manange Account</button>
+                <div class="dropdown-divider"></div>
+                <button ngbDropdownItem *ngIf="islogout" type="submit" routerLink="welcome"
+                    (click)="Checklogout()">Logout</button>
+            </div>
         </div>
+    </div>
 </nav>

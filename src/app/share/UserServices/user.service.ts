@@ -15,6 +15,8 @@ export class UserService {
   currentLoggedOut = this.loggedOut.asObservable()
   public dropdown = new BehaviorSubject<boolean>(false);
   currentdropdown = this.dropdown.asObservable()
+  _name= new BehaviorSubject<string>('');
+  current_name=this._name.asObservable();
   
   constructor(private http: HttpClient, private router: Router) { }
 
@@ -32,6 +34,7 @@ export class UserService {
         this.loggedIn.next(false);
         this.loggedOut.next(true)
         this.dropdown.next(true)
+        this._name.next(USER.username)
         // this.signInForm.reset()
         this.router.navigate(["article"])
 

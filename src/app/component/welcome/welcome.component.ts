@@ -8,6 +8,7 @@ import { UserService } from 'src/app/share/UserServices/user.service';
 })
 export class WelcomeComponent implements OnInit {
   private islogin!:boolean
+  collapsed = true;
   constructor(private checkLog:UserService) { }
 
   ngOnInit(): void {
