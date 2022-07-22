@@ -27,7 +27,7 @@
         <button *ngIf="islogin" class="btn btn-outline-success mx-2" type="submit" routerLink="/login"
             (click)="Checklogin()">Login</button>
     </div>
-    <i *ngIf="_dropdown" class='fas fa-user-circle' style='font-size:36px'></i>
+    <!-- <i *ngIf="_dropdown" class='fas fa-user-circle' style='font-size:36px'></i>
     <span> </span>
     <div class="col" *ngIf="_dropdown">
         <div ngbDropdown class="d-inline-block">
@@ -41,5 +41,19 @@
                     (click)="Checklogout()">Logout</button>
             </div>
         </div>
-    </div>
+    </div> -->
+    <i *ngIf="_dropdown" class='fas fa-user-circle' style='font-size:36px'></i>
+    <div class="dropdown " *ngIf="_dropdown">
+        <button type="button" class="btn btn-outline dropdown-toggle" data-toggle="dropdown">
+            {{name}}
+        </button>
+        <div class="dropdown-menu dropdown-menu-end ">
+          <a class="dropdown-item" href="#">Manange Account</a>
+          <a class="dropdown-item" href="#">Logout</a>
+         
+        </div>
+      </div>
+      <i *ngIf="islogin" class='fas fa-user-circle' style='font-size:36px'></i>
+      
+    
 </nav>
